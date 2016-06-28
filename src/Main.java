@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by Adam on 6/28/2016.
+ * Created by Adam on 6/28/2016 for worksheet 1
  */
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +14,6 @@ public class Main {
         Print.printthreeaverage();
         Print.findsmallestoftwo();
         */
-
+        Print.ordertwo();
     }
 }
