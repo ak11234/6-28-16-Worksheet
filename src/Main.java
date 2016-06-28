@@ -12,6 +12,7 @@ public class Main {
         Print.printaveragetwo();
         Print.printsumthree();
         Print.printthreeaverage();
+        Print.findsmallestoftwo();
         */
 
     }

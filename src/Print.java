@@ -50,8 +50,6 @@ public class Print {
         num1 = getint("First number: ");
         num2 = getint("Second number: ");
         double dec1, dec2;
-        dec1 = num1 + 0.0;
-        dec2 = num2 + 0.0;
         double average = ((num1 + num2) / 2.0);
         System.out.println(average);
     }
@@ -69,5 +67,17 @@ public class Print {
         num3=getint("Third number: ");
         double average = ((num1 + num2 + num3) / 3.0);
         System.out.println(average);
+    }
+    public static void findsmallestoftwo(){
+        double num1, num2;
+        num1=getint("First number: ");
+        num2=getint("Second number: ");
+        if (num1<num2) {
+            System.out.println(num1 + " is smaller");
+        } else if (num1>num2) {
+            System.out.println(num2 + " is smaller");
+        } else {
+            System.out.println("They are equal");
+        }
     }
 }
